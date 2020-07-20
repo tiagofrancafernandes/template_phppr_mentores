@@ -30,3 +30,4 @@ Route::prefix('mentoria')->name('mentoria.')->group(function () {
         return view('phppr_mentoria.pages.mentor_profile');
     })->name('mentor.profile');//TODO
 });
+
